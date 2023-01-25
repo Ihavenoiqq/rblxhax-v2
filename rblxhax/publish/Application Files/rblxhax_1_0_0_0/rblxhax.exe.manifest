@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="rblxhax.exe" version="1.0.0.0" publicKeyToken="251fb325c64fc982" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="rblxhax" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="rblxhax.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FastColoredTextBox.dll" size="332800">
+      <assemblyIdentity name="FastColoredTextBox" version="2.16.26.0" publicKeyToken="FB8AA12B994EF61B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aNDkRMCydVLSy4ZQHct9s/1kuC2WbpcI2wQI7BujjHk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="rblxhax.exe" size="1605592">
+      <assemblyIdentity name="rblxhax" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kawqrjWUxKmWCbHgE01av0xSPqx6Kn1LOy4EKyzcab4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WeAreDevs_API.dll" size="622080">
+      <assemblyIdentity name="WeAreDevs_API" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uk7eaf75Z18MjdVGz0HQxSn6K9dZZdaWRwnyCuNoEQk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="rblxhax.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WINDOWS-EXPEE\nooba" issuerKeyHash="f9b9f397b8e949e46c3a45e667d5aacc6ebbc8f5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nO6RY8mW2QuHJlW/cHwPUr9iTo+Kuo14xm8p2Qc8b0o=</DigestValue></Reference></SignedInfo><SignatureValue>C9KLd6MX+Ck6y+diLM3AXGcCmYcRqUTZZyUKQ4SFwaoeFZ3iGsnrHg+tc1GkdZuwwnzDOEkar36MzgrrSJnx83V75ALMolc9eIumL3nwJ6iOxISsTWGw1YLMRz3CWESNR/HMfLCL6bO1nfZWIt3pETkS69sX/X80VJN7cJY3044=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5b3xfI6/McPv8fFpKEC6F++03eONVN5+yDUccnrYBGtMBmfftN1t/ifxeeRfZ9KUhYUb5owoVFBKR9voCYUHTIRcgLN+JZnXkc+Er4mPkGuwm3WBsvD8VyKFU2hpcdoIOySkU0PKcNjngzSFi+bZaqqmb6cd9IDNfzkJoKFyH1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4a6f3c07d9296fc6788dba8a8f4e62bf520f7c70bf5526870bd996c96391ee9c" Description="" Url=""><as:assemblyIdentity name="rblxhax.exe" version="1.0.0.0" publicKeyToken="251fb325c64fc982" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WINDOWS-EXPEE\nooba</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bEPmLiRanchLehuTR/L7LbpeMkQKwGBiSxA1ClzuhlA=</DigestValue></Reference></SignedInfo><SignatureValue>HGm4KnUEg79XRaMIfNgUFiqv51J7U2p35r7kyXqnZwjHBms0vCTjfUJ6dZr2bYZpbLsUTUEvRCdAqunM6YjUdTIw4iWLxoqg4hyrDZZYz0PkaeyOyRo2m9xcpdCY29j8uGYio6uhJiB/qycUNe3eGz/7wvx9EqrXEt9kkJ4VCBI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5b3xfI6/McPv8fFpKEC6F++03eONVN5+yDUccnrYBGtMBmfftN1t/ifxeeRfZ9KUhYUb5owoVFBKR9voCYUHTIRcgLN+JZnXkc+Er4mPkGuwm3WBsvD8VyKFU2hpcdoIOySkU0PKcNjngzSFi+bZaqqmb6cd9IDNfzkJoKFyH1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQEwrCwGCYuqlAzaCq8XkgOzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAVwBJAE4ARABPAFcAUwAtAEUAWABQAEUARQBcAG4AbwBvAGIAYTAeFw0yMzAxMjUwMjA3MTdaFw0yNDAxMjUwODA3MTdaMDExLzAtBgNVBAMeJgBXAEkATgBEAE8AVwBTAC0ARQBYAFAARQBFAFwAbgBvAG8AYgBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlvfF8jr8xw+/x8WkoQLoX77Td441U3n7INRxyetgEa0wGZ9+03W3+J/F55F9n0pSFhRvmjChUUEpH2+gJhQdMhFyAs34lmdeRz4SviY+Qa7CbdYGy8PxXIoVTaGlx2gg7JKRTQ8pw2OeDNIWL5tlqqqZvpx30gM1/OQmgoXIfVQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGMwVo71Df0Q5/tMS6IMYLPtsEBj3CLesoj2MMfwd8PKl8ucb2JsK8bEKtOjRoJhDi9uhPp/LqWa76hy3ymf0o/i01Ym928B217eQb7oFGEsdGkykWMme2y+cZOtbHIpj1NV+d3jjvGCjcjVxGPOoYBj0DyTCMGEVRsNKjx4HO1J</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -12,3 +12,7 @@ C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.CoreCompile
 C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.CopyComplete
 C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.exe
 C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.pdb
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\rblxhax.exe.manifest
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\rblxhax.application
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.exe.manifest
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.application
