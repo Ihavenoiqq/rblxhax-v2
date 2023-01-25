@@ -1,0 +1,14 @@
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\rblxhax.exe.config
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\rblxhax.exe
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\rblxhax.pdb
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\FastColoredTextBox.dll
+C:\Users\nooba\source\repos\rblxhax\rblxhax\bin\Debug\WeAreDevs_API.dll
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.AssemblyReference.cache
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.SuggestedBindingRedirects.cache
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.Form1.resources
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.Properties.Resources.resources
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.GenerateResource.cache
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.CoreCompileInputs.cache
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.csproj.CopyComplete
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.exe
+C:\Users\nooba\source\repos\rblxhax\rblxhax\obj\Debug\rblxhax.pdb
